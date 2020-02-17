@@ -1,10 +1,10 @@
-# login-ximalaya
+# Login-ximalaya
 login ximalaya with requests
 
-# recognize captcha in file discriminate.py
+# Recognize captcha in file discriminate.py
 use opencv-python
 
-# post login/pwd/v1 to login
+# Post login/pwd/v1 to login
 ### password RSA/PKCS1_v1_5/base64encode
 
 `
@@ -13,7 +13,7 @@ modules = "009585A4773ABEECB949701D49762F2DFAB9599BA19DFE1E1A2FA200E32E0444F426D
 
 `exponent = '10001'`
 
-### signature upper/sha1
+### Signature upper/sha1
 
 `
 raw = f"account={account}&nonce={nonce}&password={password}&WEB-V1-PRODUCT-E7768904917C4154A925FBE1A3848BC3E84E2C7770744E56AFBC9600C267891F"
@@ -21,11 +21,11 @@ raw = f"account={account}&nonce={nonce}&password={password}&WEB-V1-PRODUCT-E7768
 
 `signature =hashlib.sha1(raw.upper().encode()).hexdigest()`
 
-### need to add cookie
+### Need to add cookie
 
 `
 cookies={'fds_otp':retfromcaptchaverify['token']}
 `
 
-# result
+# Example
 ![this is the example](https://github.com/skygongque/login-ximalaya/blob/master/ximalayapy/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95%E7%BA%AA%E5%BF%B5.png)
