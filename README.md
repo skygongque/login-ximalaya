@@ -17,14 +17,13 @@ signature upper/sha1
 
 `
 raw = f"account={account}&nonce={nonce}&password={password}&WEB-V1-PRODUCT-E7768904917C4154A925FBE1A3848BC3E84E2C7770744E56AFBC9600C267891F"
-signature =hashlib.sha1(raw.upper().encode()).hexdigest()
-
 `
+
+`signature =hashlib.sha1(raw.upper().encode()).hexdigest()`
 
 need to add cookie
 
 `
 cookies={'fds_otp':retfromcaptchaverify['token']}
-
 `
 
