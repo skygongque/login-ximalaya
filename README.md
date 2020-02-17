@@ -1,4 +1,4 @@
-![picture](https://img.shields.io/badge/python-v3.7-brightgreen)   ![picture](https://img.shields.io/badge/node-v12.14.1-brightgreen)  ![picture](https://img.shields.io/badge/opencv_python-v4.2.0.32-brightgreen)  ![picture](https://img.shields.io/badge/requests-v2.20.0-brightgreen)  ![picture](https://img.shields.io/badge/pycryptodome-v3.9.6-brightgreen)   ![picture](https://img.shields.io/badge/PyExecJS-v1.5.1-brightgreen)
+![picture](https://img.shields.io/badge/python-v3.7-brightgreen)   ![picture](https://img.shields.io/badge/node-v12.14.1-yellowgreen)  ![picture](https://img.shields.io/badge/opencv_python-v4.2.0.32-brightgreen)  ![picture](https://img.shields.io/badge/requests-v2.20.0-brightgreen)  ![picture](https://img.shields.io/badge/pycryptodome-v3.9.6-brightgreen)   ![picture](https://img.shields.io/badge/PyExecJS-v1.5.1-brightgreen)
 # Login-ximalaya
 login ximalaya with requests
 
