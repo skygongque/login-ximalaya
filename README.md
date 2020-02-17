@@ -1,4 +1,4 @@
-![picture](https://img.shields.io/badge/python-v3.7-brightgreen)
+![picture](https://img.shields.io/badge/python-v3.7-brightgreen)![picture](https://img.shields.io/badge/opencv_python-==4.2.0.32-brightgreen)
 # Login-ximalaya
 login ximalaya with requests
 
