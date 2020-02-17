@@ -1,4 +1,4 @@
-![picture](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku?label=python&style=plastic)
+![picture](https://img.shields.io/badge/python-v3.7-brightgreen)
 # Login-ximalaya
 login ximalaya with requests
 
