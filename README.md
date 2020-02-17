@@ -29,3 +29,4 @@ cookies={'fds_otp':retfromcaptchaverify['token']}
 
 # result
 
+https://github.com/skygongque/login-ximalaya/blob/master/ximalayapy/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95%E7%BA%AA%E5%BF%B5.png
