@@ -22,7 +22,7 @@ raw = f"account={account}&nonce={nonce}&password={password}&WEB-V1-PRODUCT-E7768
 
 `signature =hashlib.sha1(raw.upper().encode()).hexdigest()`
 
-### Need to add cookie
+### Need to add cookies
 
 `
 cookies={'fds_otp':retfromcaptchaverify['token']}
