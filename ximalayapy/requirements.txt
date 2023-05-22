@@ -1,4 +1,4 @@
 PyExecJS==1.5.1
 opencv_python==4.2.0.32
-requests==2.20.0
+requests==2.31.0
 pycryptodome==3.9.6
